@@ -1,0 +1,120 @@
+body {
+  background: rgb(201, 200, 200);
+}
+
+.main-form {
+  background: #fff;
+  padding: 16px;
+}
+
+.main-container-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-info {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.container {
+  font-family: sans-serif;
+  text-align: center;
+
+  height: 400px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+  padding: 16px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px 1px gray;
+  background: #fff;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+}
+
+.main-form input,
+.form input {
+  flex-grow: 1;
+  margin-right: 8px;
+  outline: none;
+  border-radius: 4px;
+  height: 24px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form button {
+  border-radius: 8px;
+  outline: none;
+  background-color: #8dc149;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.form button:hover {
+  background-color: #7fae42;
+}
+
+.info div {
+  font-weight: bold;
+}
+
+.info button {
+  margin-top: 8px;
+  border-radius: 8px;
+  outline: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 24px;
+  transition: all 0.2s;
+}
+
+.info button:first-of-type {
+  margin-left: 8px;
+  background-color: #cc3e44;
+}
+
+.info button:first-of-type:hover {
+  background-color: #b8383d;
+}
+
+.info button:last-child {
+  margin-left: 8px;
+  background-color: #2e2e2e;
+}
+
+.info button:last-child:hover {
+  background-color: #3f3f3f;
+}
+
+.list {
+  padding: 0;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.list li {
+  list-style-type: none;
+  display: flex;
+  padding: 8px 0;
+  border-bottom: 1px solid gray;
+}
+
+.list li input {
+  margin-right: 8px;
+}
+
+.logo {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
